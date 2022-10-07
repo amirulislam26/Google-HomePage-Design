@@ -22,6 +22,22 @@ section header{
     padding: 20px;
     margin-top: -20px;
 }
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
 .circle img{
     width: 40px;
     border-radius: 50%;
@@ -30,4 +46,7 @@ section header{
 }
 .img-bars{
     margin-right: 20px;
+}
+.my-png{
+    margin-left: 5px;
 }
